@@ -1,0 +1,293 @@
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    }
+    @keyframes slideInFromRight {
+      0% {
+          transform: translateX(100%);
+          opacity: 0;
+      }
+      100% {
+          transform: translateX(0);
+          opacity: 1;
+      }
+      }
+      @keyframes slideInFromDown {
+        0% {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        }
+        @keyframes slideInFromTop {
+          0% {
+              transform: translateY(-100%);
+              opacity: 0;
+          }
+          100% {
+              transform: translateY(0);
+              opacity: 1;
+          }
+          }
+      
+
+body{
+margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+ p{
+    color: rgba(48, 68, 78, 1);
+ }                                                                                  /* navbar */
+.navbar{
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    height: 100px;
+    animation: 0.5s ease-out 0s 1 slideInFromTop;
+}
+.nav-sp{
+    margin-left: 25%;
+}
+.nav-link{
+font-size: 18px;
+margin: auto 15px auto;
+font-weight: 500;
+line-height: 21px;
+color:rgba(31, 46, 53, 0.8);
+}
+.icon{
+    margin-left: 10%;
+}
+
+.container{
+    width: 100%;
+    /* margin: 0; */
+    padding: 8% 5%;
+}
+.head-content{
+    animation: 0.5s ease-out 0s 1 slideInFromLeft;
+}
+.head-img{
+    animation: 0.5s ease-out 0s 1 slideInFromRight;
+}
+.row-1{
+ margin-top: 10px;
+}
+.big-heading{
+font-size: 48px;
+letter-spacing: -0.1;
+font-weight: 700;
+line-height: 1.5;
+}
+.red-txt{
+   color: rgba(238, 66, 72, 1);
+}
+.para{
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+.btn-read{
+    background: rgba(238, 66, 72, 1);
+
+}
+.btn-main{
+    margin-top: 10px;
+    padding: 10px 25px;
+}
+.container-fluid{
+padding: 0 10%;
+
+}
+.row-2{
+  background-color: #F7F7F7;
+}
+.title-content{
+    padding: 3em;
+}
+.para-2{
+    font-size: 18px;
+}
+.img2{
+    position: relative;
+    left: 50px;
+    top: -10px;
+}
+
+
+.team-hd{
+    color: #1F2E35;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 6% auto 0;
+}
+.team-title{
+    margin: 15px auto;
+}
+.row-3{
+    padding: 0 12%;
+    line-height: 1.6;
+}
+.col-box{
+    padding: 4% 3%;
+}
+.team-hd-2{
+    margin: 3% auto 0;
+}
+
+
+hr {
+    background-color: #fff;
+    padding: 0;
+   display: flex;
+   justify-content: center;
+  }
+  
+  hr.hr-1 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+.card{
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+    padding: 10%;
+}
+.card-img-top{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-text{
+font-weight: 700;
+margin-bottom: 5px;
+}
+.fab{
+    color: rgba(238, 66, 72, 1);
+    margin: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+.link:hover{
+    color: #fff;
+}
+
+.row-4{
+    margin: 0;
+    padding: 0 5% 0 10%;
+    line-height: 1.7;
+    font-size: 1em;
+}
+
+footer{
+    margin-top: 5%;
+}
+.copyright{
+    margin-top: 3%;
+    background-color: rgba(238, 66, 72, 1);
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.partner{
+   margin: auto 8px;
+}
+.card-box-4{
+    padding: 0;
+}
+
+
+
+@media (max-width:767px){
+    .img1{
+      margin: 40px auto auto 60px ;
+    }
+    .title-img{
+        height: 200px;
+    }
+    .container-fluid{
+        padding: 10%;
+        font-size: 0.5em;
+    }
+    .nav-sp{
+        margin: 10px auto 10px 10px;
+    }
+    .collapse{
+        background-color: #fff;
+        width: 100%;
+    }
+    .big-heading{
+        font-size: 2em;
+    }
+    .card{
+        width: 100%;
+        height: 90%;
+    }
+    .card-box-3{
+        padding: 5% 15%;
+    }
+    .fab{
+        height: 50px;
+    }
+    .card-text{
+        font-size: 1.7em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(238, 66, 72, 1);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(182, 35, 40);
+  }
